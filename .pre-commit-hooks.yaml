@@ -3,6 +3,6 @@
     entry: pylint-fail-under
     language: python
     'types': [python]
-    args: []
+    args: [--fail_under]
     require_serial: false
     description: Passes or fails based on specified score with --fail-under arg
